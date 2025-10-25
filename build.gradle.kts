@@ -62,9 +62,9 @@ publishing {
         maven {
             name = "WagYourMaven"
             url = if (project.hasProperty("version_snapshot")) {
-                URI.create("https://maven.wagyourtail.xyz/snapshots/")
+                URI.create("https://farngithub.github.io/")
             } else {
-                URI.create("https://maven.wagyourtail.xyz/releases/")
+                URI.create("https://farngithub.github.io/")
             }
             credentials {
                 username = project.findProperty("mvn.user") as String? ?: System.getenv("USERNAME")
