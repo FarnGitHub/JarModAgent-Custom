@@ -22,7 +22,6 @@ dependencies {
 
     // class transform
     implementation("net.lenni0451.classtransform:core:1.14.1")
-
     // qup
     implementation("org.quiltmc.qup:json:0.2.0") {
         isTransitive = false
