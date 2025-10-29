@@ -18,11 +18,6 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-repositories {
-    mavenCentral()
-    maven("https://maven.quiltmc.org/repository/release")
-}
-
 dependencies {
 
     // class transform
